@@ -1,9 +1,7 @@
 streamlit
 requests
-beautifulsoup4
-pandas
-numpy
-scikit-learn
 nltk
-matplotlib
+flair
+beautifulsoup4
 lxml
+torch
