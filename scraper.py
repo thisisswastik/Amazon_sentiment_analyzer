@@ -3,8 +3,6 @@ import time
 import nltk
 from bs4 import BeautifulSoup
 from nltk.sentiment import SentimentIntensityAnalyzer
-import flair
-flair.download_model("en-sentiment")
 from flair.models import TextClassifier
 from flair.data import Sentence
 
