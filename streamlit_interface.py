@@ -1,6 +1,11 @@
 import streamlit as st
 import time
-from scraper import analyze_product  # Import from scraper.py
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from scraper import analyze_product
+
 
 def main():
     st.title("📊 Amazon Product Sentiment Analyzer")
